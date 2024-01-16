@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* CodeViewer.css */
+.app {
+  background: url(https://img.freepik.com/free-vector/shiny-abstract-blurred-background_1034-897.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1704585600&semt=ais);
+  background-size: 100% 100%;
+}
+
+.FileName {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.relative button {
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+}
+
+.code-editor-container hr {
+  margin-bottom: 15px;
+}
+
+.editor {
+  margin: 20px;
+}
+
+.code-viewer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.code-editor-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
